@@ -16,7 +16,7 @@ steps:
 - task: Go@0
   inputs:
     command: 'get'
-    arguments: '-d'
+    arguments: '-d ./...'
     workingDirectory: '$(System.DefaultWorkingDirectory)'
 - task: Go@0
   inputs:
@@ -25,5 +25,5 @@ steps:
 - task: Go@0
   inputs:
     command: 'test'
-    arguments: '-v'
+    arguments: '-v ./...'
     workingDirectory: '$(modulePath)'
