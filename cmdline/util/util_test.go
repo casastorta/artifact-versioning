@@ -10,7 +10,7 @@ import (
 	"github.com/casastorta/artifact-versioning/config"
 	"github.com/casastorta/artifact-versioning/types/typeconfig"
 
-	. "github.com/onsi/ginkgo"
+	. "github.com/onsi/ginkgo/v2"
 	. "github.com/onsi/gomega"
 )
 

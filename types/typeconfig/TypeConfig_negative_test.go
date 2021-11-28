@@ -4,7 +4,7 @@ import (
 	"fmt"
 
 	"github.com/casastorta/artifact-versioning/capabilities"
-	. "github.com/onsi/ginkgo"
+	. "github.com/onsi/ginkgo/v2"
 	. "github.com/onsi/gomega"
 
 	"github.com/casastorta/artifact-versioning/config"

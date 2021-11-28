@@ -5,7 +5,7 @@ import (
 
 	"github.com/casastorta/artifact-versioning/capabilities"
 	"github.com/casastorta/artifact-versioning/types/uniquestringlist"
-	. "github.com/onsi/ginkgo"
+	. "github.com/onsi/ginkgo/v2"
 	. "github.com/onsi/gomega"
 
 	"github.com/casastorta/artifact-versioning/config"
